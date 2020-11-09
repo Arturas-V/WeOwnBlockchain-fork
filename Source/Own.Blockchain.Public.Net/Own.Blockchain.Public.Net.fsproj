@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\AssemblyInfo.fs" />
+        <Compile Include="Utils.fs" />
+        <Compile Include="Ntp.fs" />
+        <Compile Include="TransportCore.fs" />
+        <Compile Include="Transport.fs" />
+        <Compile Include="NetworkNode.fs" />
+        <Compile Include="PeerMessageHandler.fs" />
+        <Compile Include="Peers.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Own.Common.FSharp\Own.Common.FSharp.fsproj" />
+        <ProjectReference Include="..\Own.Blockchain.Common\Own.Blockchain.Common.fsproj" />
+        <ProjectReference Include="..\Own.Blockchain.Public.Core\Own.Blockchain.Public.Core.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NetMQ" Version="4.0.0.207" />
+        <PackageReference Include="GuerrillaNtp" Version="1.4.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    </ItemGroup>
+
+</Project>

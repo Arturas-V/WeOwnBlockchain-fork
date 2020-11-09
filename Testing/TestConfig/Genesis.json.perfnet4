@@ -1,0 +1,20 @@
+{
+    "NetworkCode": "OWN_PUBLIC_BLOCKCHAIN_PERFNET",
+    "GenesisAddress": "CHMEgFB4BEyQ5fEv5Ru42yZfQ5egnr776ih",
+    "GenesisValidators": [
+        "CHfN8DuKmMxUUwX7EtqAe6kfURzb9c5ieXu@val001.perfnet.weown.com:25718",
+        "CHbC3Y147ukTMgLfKYDDReUXXHQxwcekbJL@val002.perfnet.weown.com:25718",
+        "CHHpyhutk2sEPNtNgfQ43WwHueyTPseS3sc@val003.perfnet.weown.com:25718",
+        "CHbiXgyWuDdx2U8gdpAwcW64ZwW83gvG8o4@val004.perfnet.weown.com:25718"
+    ],
+    "GenesisSignatures": [
+        "72wK65ZHGugnYYTCjMPKnhWquWd6XTJiNJCBVGyL9Kj3Zq3oytAZiTqhGSXCJ6JvtWSLU1ku1sBvY4hzKpu3Fdd43",
+        "8o4fHXMtJDwShzJsaruay3hjjpsddLtGsCHTFgRceH9qav68LF1hFYc3ZQGDYoGzMPhnL2G8FceFd5p3jTARZKoio",
+        "4Xswwkq6ozkEFB5VWqQTJN39atpBkUHDg3sUrJerq45fKYRmAVcy2gj8CuXEufwTBM2mXZkqYt5X3NkNpfpkSnhEx",
+        "LrTVWZH5Mn8i2cgMLqXHVge9bjtZfZXE7MhDTBfmpTd22oX9vpkXokZikmnDNzdXQ5dLuDbvFvKGg9YwDsVNiKeZE"
+    ],
+    "ConfigurationBlockDelta": 20000,
+    "ValidatorDepositLockTime": 5,
+    "ValidatorBlacklistTime": 50,
+    "MaxTxCountPerBlock": 1000
+}

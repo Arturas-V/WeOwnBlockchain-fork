@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\AssemblyInfo.fs" />
+        <Compile Include="Errors.fs" />
+        <Compile Include="Log.fs" />
+        <Compile Include="Utils.fs" />
+        <Compile Include="Stats.fs" />
+        <Compile Include="Conversion.fs" />
+        <Compile Include="Agent.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Own.Common.FSharp\Own.Common.FSharp.fsproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+# Tools
+**/.idea
+**/.vs
+*.user
+
+# DB and Raw data
+*.fdb
+*.db
+Own.Blockchain.Public.Node/Data
+
+# Binaries
+package
+bin
+obj

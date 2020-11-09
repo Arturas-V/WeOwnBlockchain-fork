@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\AssemblyInfo.fs" />
+        <Compile Include="Raw.fs" />
+        <Compile Include="DbTools.fs" />
+        <Compile Include="Db.fs" />
+        <Compile Include="DbChanges.fs" />
+        <Compile Include="DbInit.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Own.Common.FSharp\Own.Common.FSharp.fsproj" />
+        <ProjectReference Include="..\Own.Blockchain.Common\Own.Blockchain.Common.fsproj" />
+        <ProjectReference Include="..\Own.Blockchain.Public.Core\Own.Blockchain.Public.Core.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="1.60.6" />
+        <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="6.6.0" />
+        <PackageReference Include="MessagePack" Version="1.7.3.4" />
+        <PackageReference Include="Npgsql" Version="4.0.6" />
+    </ItemGroup>
+
+</Project>
